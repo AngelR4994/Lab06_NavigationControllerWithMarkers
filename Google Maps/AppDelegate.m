@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import <Google/Analytics.h>
+@import GoogleMaps;
 
 @interface AppDelegate ()
 
@@ -16,7 +18,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [GMSServices provideAPIKey:@"AIzaSyDgCQuCW02KehXOGPQEse-TttBJkTJ0v9U"];
+    
+    // Configure tracker from GoogleService-Info.plist.
+    NSError *configureError;
+    [[GGLContext sharedInstance] configureWithError:&configureError];
+    NSAssert(!configureError, @"Error configuring Google services: %@", configureError);
+    
+    // Optional: configure GAI options.
+    GAI *gai = [GAI sharedInstance];
+    gai.trackUncaughtExceptions = YES;  // report uncaught exceptions
+    gai.logger.logLevel = kGAILogLevelVerbose;  // remove before app release
+    
     return YES;
 }
 
@@ -51,7 +64,7 @@
 @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
 
 - (NSURL *)applicationDocumentsDirectory {
-    // The directory the application uses to store the Core Data store file. This code uses a directory named "-.Google_Maps" in the application's documents directory.
+    // The directory the application uses to store the Core Data store file. This code uses a directory named "com.smartplace.Google_Maps" in the application's documents directory.
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
 }
 
