@@ -15,6 +15,7 @@
 		4B4FE6391D5D672A00E108D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE6381D5D672A00E108D4 /* Assets.xcassets */; };
 		4B4FE63C1D5D672A00E108D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE63A1D5D672A00E108D4 /* LaunchScreen.storyboard */; };
 		4B4FE6461D5D73F600E108D4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE6451D5D73F600E108D4 /* Podfile */; };
+		4B7FF1871D750FCA00CFDE8B /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF1861D750FCA00CFDE8B /* Details.m */; };
 		4B89B4171D5EBB9800302415 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B89B4161D5EBB9800302415 /* GoogleService-Info.plist */; };
 		E465CE52D6D962BAF2FA1B58 /* Pods_Google_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3560FCECDA8FB75E45EB55 /* Pods_Google_Maps.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,8 @@
 		4B4FE63B1D5D672A00E108D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B4FE63D1D5D672A00E108D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B4FE6451D5D73F600E108D4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B7FF1851D750FCA00CFDE8B /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
+		4B7FF1861D750FCA00CFDE8B /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
 		4B89B4161D5EBB9800302415 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAD478DB2074C4F74A1E7191 /* Pods-Google Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.release.xcconfig"; sourceTree = "<group>"; };
 		BCB32B553D93888DDF873FCE /* Pods-Google Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +101,8 @@
 			children = (
 				4B4FE62F1D5D672A00E108D4 /* Start.h */,
 				4B4FE6301D5D672A00E108D4 /* Start.m */,
+				4B7FF1851D750FCA00CFDE8B /* Details.h */,
+				4B7FF1861D750FCA00CFDE8B /* Details.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 			files = (
 				4B4FE6311D5D672A00E108D4 /* Start.m in Sources */,
 				4B4FE6371D5D672A00E108D4 /* Google_Maps.xcdatamodeld in Sources */,
+				4B7FF1871D750FCA00CFDE8B /* Details.m in Sources */,
 				4B4FE62E1D5D672A00E108D4 /* AppDelegate.m in Sources */,
 				4B4FE62B1D5D672A00E108D4 /* main.m in Sources */,
 			);

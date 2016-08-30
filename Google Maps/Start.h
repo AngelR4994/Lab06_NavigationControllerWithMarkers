@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
 
-@interface Start : UIViewController
+extern long latitude;
+extern long longitude;
+@interface Start : UIViewController<CLLocationManagerDelegate,GMSMapViewDelegate>
 
 
 @end
