@@ -23,6 +23,7 @@ long longitude;
     GMSMapView *mapView_;
 }
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self createMap];
