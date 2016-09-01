@@ -28,6 +28,9 @@ long longitude;
     [super viewDidLoad];
     [self createMap];
     //[self viewWillAppear];
+    mapView_.myLocationEnabled = YES; //it isn't required
+    mapView_.settings.compassButton=YES;
+    mapView_.settings.myLocationButton= YES;
 }
 -(void)viewWillAppear:(BOOL)animated
 {

@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface Details : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *lblTempMax;
+@property (strong, nonatomic) IBOutlet UILabel *lblTempMin;
+@property (strong, nonatomic) IBOutlet UILabel *lblHumedad;
+@property (strong, nonatomic) IBOutlet UILabel *lblPresion;
+@property (strong, nonatomic) IBOutlet UILabel *lblTemp;
+
 
 @end
