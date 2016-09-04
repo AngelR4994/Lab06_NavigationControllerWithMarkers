@@ -7,36 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B4B3F4D1D7792E7005B6B70 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F351D7792E7005B6B70 /* NSObject+SBJson.m */; };
-		4B4B3F4E1D7792E7005B6B70 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F381D7792E7005B6B70 /* SBJsonParser.m */; };
-		4B4B3F4F1D7792E7005B6B70 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F3A1D7792E7005B6B70 /* SBJsonStreamParser.m */; };
-		4B4B3F501D7792E7005B6B70 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F3C1D7792E7005B6B70 /* SBJsonStreamParserAccumulator.m */; };
-		4B4B3F511D7792E7005B6B70 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F3E1D7792E7005B6B70 /* SBJsonStreamParserAdapter.m */; };
-		4B4B3F521D7792E7005B6B70 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F401D7792E7005B6B70 /* SBJsonStreamParserState.m */; };
-		4B4B3F531D7792E7005B6B70 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F421D7792E7005B6B70 /* SBJsonStreamWriter.m */; };
-		4B4B3F541D7792E7005B6B70 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F441D7792E7005B6B70 /* SBJsonStreamWriterAccumulator.m */; };
-		4B4B3F551D7792E7005B6B70 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F461D7792E7005B6B70 /* SBJsonStreamWriterState.m */; };
-		4B4B3F561D7792E7005B6B70 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F481D7792E7005B6B70 /* SBJsonTokeniser.m */; };
-		4B4B3F571D7792E7005B6B70 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F4A1D7792E7005B6B70 /* SBJsonUTF8Stream.m */; };
-		4B4B3F581D7792E7005B6B70 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F4C1D7792E7005B6B70 /* SBJsonWriter.m */; };
-		4B4B3F731D7792F9005B6B70 /* NSDictionary+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F5C1D7792F9005B6B70 /* NSDictionary+ObjectMapper.m */; };
-		4B4B3F741D7792F9005B6B70 /* NSObject+ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F5E1D7792F9005B6B70 /* NSObject+ObjectMapper.m */; };
-		4B4B3F751D7792F9005B6B70 /* ManagedObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F621D7792F9005B6B70 /* ManagedObjectInstanceProvider.m */; };
-		4B4B3F761D7792F9005B6B70 /* ObjectInstanceProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F641D7792F9005B6B70 /* ObjectInstanceProvider.m */; };
-		4B4B3F771D7792F9005B6B70 /* CommonLoggingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F671D7792F9005B6B70 /* CommonLoggingProvider.m */; };
-		4B4B3F781D7792F9005B6B70 /* InCodeMappingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F6C1D7792F9005B6B70 /* InCodeMappingProvider.m */; };
-		4B4B3F791D7792F9005B6B70 /* ObjectMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F6F1D7792F9005B6B70 /* ObjectMapper.m */; };
-		4B4B3F7A1D7792F9005B6B70 /* ObjectMappingInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F711D7792F9005B6B70 /* ObjectMappingInfo.m */; };
-		4B4B3F971D779502005B6B70 /* Coord.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F8E1D779502005B6B70 /* Coord.m */; };
-		4B4B3F981D779502005B6B70 /* MainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F901D779502005B6B70 /* MainObject.m */; };
-		4B4B3F991D779502005B6B70 /* Weather.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F921D779502005B6B70 /* Weather.m */; };
-		4B4B3F9A1D779502005B6B70 /* WeatherDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F941D779502005B6B70 /* WeatherDetail.m */; };
-		4B4B3F9B1D779502005B6B70 /* WeatherObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F961D779502005B6B70 /* WeatherObject.m */; };
-		4B4B3F9E1D77962E005B6B70 /* OCMapperConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3F9D1D77962E005B6B70 /* OCMapperConfig.m */; };
-		4B4B3FA31D77A365005B6B70 /* Declarations.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3FA01D77A365005B6B70 /* Declarations.m */; };
-		4B4B3FA41D77A365005B6B70 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4B3FA21D77A365005B6B70 /* Parser.m */; };
-		4B4B3FA71D77B4FD005B6B70 /* 01d.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B3FA61D77B4FD005B6B70 /* 01d.png */; };
-		4B4B3FA91D77CF5D005B6B70 /* 02d.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4B3FA81D77CF5D005B6B70 /* 02d.png */; };
+		4B499EDC1D7B64FD005699D4 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B499ED71D7B64FD005699D4 /* Home.m */; };
+		4B499EDD1D7B64FD005699D4 /* FoodDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B499ED91D7B64FD005699D4 /* FoodDetails.m */; };
+		4B499EDE1D7B64FD005699D4 /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B499EDB1D7B64FD005699D4 /* States.m */; };
+		4B499EE51D7B6681005699D4 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B499EE01D7B6681005699D4 /* cellHome.m */; };
+		4B499EE61D7B6681005699D4 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EE11D7B6681005699D4 /* cellHome.xib */; };
+		4B499EE71D7B6681005699D4 /* cellStates.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B499EE31D7B6681005699D4 /* cellStates.m */; };
+		4B499EE81D7B6681005699D4 /* cellStates.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EE41D7B6681005699D4 /* cellStates.xib */; };
+		4B499F011D7B677E005699D4 /* Chiapas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EEB1D7B677E005699D4 /* Chiapas.jpg */; };
+		4B499F021D7B677E005699D4 /* Jalisco.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EEC1D7B677E005699D4 /* Jalisco.png */; };
+		4B499F031D7B677E005699D4 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EEE1D7B677E005699D4 /* 1.jpg */; };
+		4B499F041D7B677E005699D4 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EEF1D7B677E005699D4 /* 10.jpg */; };
+		4B499F051D7B677E005699D4 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF01D7B677E005699D4 /* 2.jpg */; };
+		4B499F061D7B677E005699D4 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF11D7B677E005699D4 /* 3.jpg */; };
+		4B499F071D7B677E005699D4 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF21D7B677E005699D4 /* 4.jpg */; };
+		4B499F081D7B677E005699D4 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF31D7B677E005699D4 /* 5.jpg */; };
+		4B499F091D7B677E005699D4 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF41D7B677E005699D4 /* 6.jpg */; };
+		4B499F0A1D7B677E005699D4 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF51D7B677E005699D4 /* 7.jpg */; };
+		4B499F0B1D7B677E005699D4 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF61D7B677E005699D4 /* 8.jpg */; };
+		4B499F0C1D7B677E005699D4 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF71D7B677E005699D4 /* 9.jpg */; };
+		4B499F0D1D7B677E005699D4 /* abe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF81D7B677E005699D4 /* abe.jpg */; };
+		4B499F0E1D7B677E005699D4 /* gua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EF91D7B677E005699D4 /* gua.jpg */; };
+		4B499F0F1D7B677E005699D4 /* teq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EFA1D7B677E005699D4 /* teq.jpg */; };
+		4B499F101D7B677E005699D4 /* tla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EFB1D7B677E005699D4 /* tla.jpg */; };
+		4B499F111D7B677E005699D4 /* tom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EFC1D7B677E005699D4 /* tom.jpg */; };
+		4B499F121D7B677E005699D4 /* Zap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EFD1D7B677E005699D4 /* Zap.jpg */; };
+		4B499F131D7B677E005699D4 /* Oaxaca.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EFE1D7B677E005699D4 /* Oaxaca.png */; };
+		4B499F141D7B677E005699D4 /* Querétaro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499EFF1D7B677E005699D4 /* Querétaro.jpg */; };
+		4B499F151D7B677E005699D4 /* Yucatán.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B499F001D7B677E005699D4 /* Yucatán.jpg */; };
+		4B499F181D7B77DF005699D4 /* Declaration.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B499F171D7B77DF005699D4 /* Declaration.m */; };
 		4B4FE62B1D5D672A00E108D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FE62A1D5D672A00E108D4 /* main.m */; };
 		4B4FE62E1D5D672A00E108D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FE62D1D5D672A00E108D4 /* AppDelegate.m */; };
 		4B4FE6311D5D672A00E108D4 /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4FE6301D5D672A00E108D4 /* Start.m */; };
@@ -45,75 +44,46 @@
 		4B4FE6391D5D672A00E108D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE6381D5D672A00E108D4 /* Assets.xcassets */; };
 		4B4FE63C1D5D672A00E108D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE63A1D5D672A00E108D4 /* LaunchScreen.storyboard */; };
 		4B4FE6461D5D73F600E108D4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FE6451D5D73F600E108D4 /* Podfile */; };
-		4B7FF1871D750FCA00CFDE8B /* Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7FF1861D750FCA00CFDE8B /* Details.m */; };
 		4B89B4171D5EBB9800302415 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B89B4161D5EBB9800302415 /* GoogleService-Info.plist */; };
 		E465CE52D6D962BAF2FA1B58 /* Pods_Google_Maps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF3560FCECDA8FB75E45EB55 /* Pods_Google_Maps.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B4B3F341D7792E7005B6B70 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
-		4B4B3F351D7792E7005B6B70 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
-		4B4B3F361D7792E7005B6B70 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
-		4B4B3F371D7792E7005B6B70 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
-		4B4B3F381D7792E7005B6B70 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
-		4B4B3F391D7792E7005B6B70 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
-		4B4B3F3A1D7792E7005B6B70 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
-		4B4B3F3B1D7792E7005B6B70 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
-		4B4B3F3C1D7792E7005B6B70 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
-		4B4B3F3D1D7792E7005B6B70 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
-		4B4B3F3E1D7792E7005B6B70 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
-		4B4B3F3F1D7792E7005B6B70 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
-		4B4B3F401D7792E7005B6B70 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
-		4B4B3F411D7792E7005B6B70 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
-		4B4B3F421D7792E7005B6B70 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
-		4B4B3F431D7792E7005B6B70 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
-		4B4B3F441D7792E7005B6B70 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
-		4B4B3F451D7792E7005B6B70 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
-		4B4B3F461D7792E7005B6B70 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
-		4B4B3F471D7792E7005B6B70 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
-		4B4B3F481D7792E7005B6B70 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
-		4B4B3F491D7792E7005B6B70 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
-		4B4B3F4A1D7792E7005B6B70 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
-		4B4B3F4B1D7792E7005B6B70 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
-		4B4B3F4C1D7792E7005B6B70 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		4B4B3F5B1D7792F9005B6B70 /* NSDictionary+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ObjectMapper.h"; sourceTree = "<group>"; };
-		4B4B3F5C1D7792F9005B6B70 /* NSDictionary+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ObjectMapper.m"; sourceTree = "<group>"; };
-		4B4B3F5D1D7792F9005B6B70 /* NSObject+ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ObjectMapper.h"; sourceTree = "<group>"; };
-		4B4B3F5E1D7792F9005B6B70 /* NSObject+ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ObjectMapper.m"; sourceTree = "<group>"; };
-		4B4B3F601D7792F9005B6B70 /* InstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstanceProvider.h; sourceTree = "<group>"; };
-		4B4B3F611D7792F9005B6B70 /* ManagedObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedObjectInstanceProvider.h; sourceTree = "<group>"; };
-		4B4B3F621D7792F9005B6B70 /* ManagedObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedObjectInstanceProvider.m; sourceTree = "<group>"; };
-		4B4B3F631D7792F9005B6B70 /* ObjectInstanceProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInstanceProvider.h; sourceTree = "<group>"; };
-		4B4B3F641D7792F9005B6B70 /* ObjectInstanceProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInstanceProvider.m; sourceTree = "<group>"; };
-		4B4B3F661D7792F9005B6B70 /* CommonLoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLoggingProvider.h; sourceTree = "<group>"; };
-		4B4B3F671D7792F9005B6B70 /* CommonLoggingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLoggingProvider.m; sourceTree = "<group>"; };
-		4B4B3F681D7792F9005B6B70 /* LoggingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggingProvider.h; sourceTree = "<group>"; };
-		4B4B3F6B1D7792F9005B6B70 /* InCodeMappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InCodeMappingProvider.h; sourceTree = "<group>"; };
-		4B4B3F6C1D7792F9005B6B70 /* InCodeMappingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InCodeMappingProvider.m; sourceTree = "<group>"; };
-		4B4B3F6D1D7792F9005B6B70 /* MappingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MappingProvider.h; sourceTree = "<group>"; };
-		4B4B3F6E1D7792F9005B6B70 /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
-		4B4B3F6F1D7792F9005B6B70 /* ObjectMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMapper.m; sourceTree = "<group>"; };
-		4B4B3F701D7792F9005B6B70 /* ObjectMappingInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMappingInfo.h; sourceTree = "<group>"; };
-		4B4B3F711D7792F9005B6B70 /* ObjectMappingInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectMappingInfo.m; sourceTree = "<group>"; };
-		4B4B3F721D7792F9005B6B70 /* OCMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapper.h; sourceTree = "<group>"; };
-		4B4B3F8D1D779502005B6B70 /* Coord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coord.h; sourceTree = "<group>"; };
-		4B4B3F8E1D779502005B6B70 /* Coord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coord.m; sourceTree = "<group>"; };
-		4B4B3F8F1D779502005B6B70 /* MainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainObject.h; sourceTree = "<group>"; };
-		4B4B3F901D779502005B6B70 /* MainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainObject.m; sourceTree = "<group>"; };
-		4B4B3F911D779502005B6B70 /* Weather.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weather.h; sourceTree = "<group>"; };
-		4B4B3F921D779502005B6B70 /* Weather.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weather.m; sourceTree = "<group>"; };
-		4B4B3F931D779502005B6B70 /* WeatherDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherDetail.h; sourceTree = "<group>"; };
-		4B4B3F941D779502005B6B70 /* WeatherDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherDetail.m; sourceTree = "<group>"; };
-		4B4B3F951D779502005B6B70 /* WeatherObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherObject.h; sourceTree = "<group>"; };
-		4B4B3F961D779502005B6B70 /* WeatherObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherObject.m; sourceTree = "<group>"; };
-		4B4B3F9C1D779619005B6B70 /* OCMapperConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMapperConfig.h; sourceTree = "<group>"; };
-		4B4B3F9D1D77962E005B6B70 /* OCMapperConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMapperConfig.m; sourceTree = "<group>"; };
-		4B4B3F9F1D77A365005B6B70 /* Declarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declarations.h; sourceTree = "<group>"; };
-		4B4B3FA01D77A365005B6B70 /* Declarations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declarations.m; sourceTree = "<group>"; };
-		4B4B3FA11D77A365005B6B70 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
-		4B4B3FA21D77A365005B6B70 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
-		4B4B3FA61D77B4FD005B6B70 /* 01d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01d.png; sourceTree = "<group>"; };
-		4B4B3FA81D77CF5D005B6B70 /* 02d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02d.png; sourceTree = "<group>"; };
+		4B499ED61D7B64FD005699D4 /* Home.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		4B499ED71D7B64FD005699D4 /* Home.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+		4B499ED81D7B64FD005699D4 /* FoodDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetails.h; sourceTree = "<group>"; };
+		4B499ED91D7B64FD005699D4 /* FoodDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetails.m; sourceTree = "<group>"; };
+		4B499EDA1D7B64FD005699D4 /* States.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
+		4B499EDB1D7B64FD005699D4 /* States.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = States.m; sourceTree = "<group>"; };
+		4B499EDF1D7B6681005699D4 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
+		4B499EE01D7B6681005699D4 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
+		4B499EE11D7B6681005699D4 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
+		4B499EE21D7B6681005699D4 /* cellStates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellStates.h; sourceTree = "<group>"; };
+		4B499EE31D7B6681005699D4 /* cellStates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellStates.m; sourceTree = "<group>"; };
+		4B499EE41D7B6681005699D4 /* cellStates.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellStates.xib; sourceTree = "<group>"; };
+		4B499EEB1D7B677E005699D4 /* Chiapas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chiapas.jpg; sourceTree = "<group>"; };
+		4B499EEC1D7B677E005699D4 /* Jalisco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jalisco.png; sourceTree = "<group>"; };
+		4B499EEE1D7B677E005699D4 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		4B499EEF1D7B677E005699D4 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
+		4B499EF01D7B677E005699D4 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		4B499EF11D7B677E005699D4 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		4B499EF21D7B677E005699D4 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		4B499EF31D7B677E005699D4 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		4B499EF41D7B677E005699D4 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		4B499EF51D7B677E005699D4 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		4B499EF61D7B677E005699D4 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		4B499EF71D7B677E005699D4 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		4B499EF81D7B677E005699D4 /* abe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abe.jpg; sourceTree = "<group>"; };
+		4B499EF91D7B677E005699D4 /* gua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gua.jpg; sourceTree = "<group>"; };
+		4B499EFA1D7B677E005699D4 /* teq.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teq.jpg; sourceTree = "<group>"; };
+		4B499EFB1D7B677E005699D4 /* tla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tla.jpg; sourceTree = "<group>"; };
+		4B499EFC1D7B677E005699D4 /* tom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tom.jpg; sourceTree = "<group>"; };
+		4B499EFD1D7B677E005699D4 /* Zap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zap.jpg; sourceTree = "<group>"; };
+		4B499EFE1D7B677E005699D4 /* Oaxaca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oaxaca.png; sourceTree = "<group>"; };
+		4B499EFF1D7B677E005699D4 /* Querétaro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Querétaro.jpg"; sourceTree = "<group>"; };
+		4B499F001D7B677E005699D4 /* Yucatán.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yucatán.jpg"; sourceTree = "<group>"; };
+		4B499F161D7B77DF005699D4 /* Declaration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Declaration.h; sourceTree = "<group>"; };
+		4B499F171D7B77DF005699D4 /* Declaration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Declaration.m; sourceTree = "<group>"; };
 		4B4FE6261D5D672A00E108D4 /* Google Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4FE62A1D5D672A00E108D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B4FE62C1D5D672A00E108D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,8 +96,6 @@
 		4B4FE63B1D5D672A00E108D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B4FE63D1D5D672A00E108D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B4FE6451D5D73F600E108D4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4B7FF1851D750FCA00CFDE8B /* Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Details.h; sourceTree = "<group>"; };
-		4B7FF1861D750FCA00CFDE8B /* Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Details.m; sourceTree = "<group>"; };
 		4B89B4161D5EBB9800302415 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BAD478DB2074C4F74A1E7191 /* Pods-Google Maps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.release.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.release.xcconfig"; sourceTree = "<group>"; };
 		BCB32B553D93888DDF873FCE /* Pods-Google Maps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Google Maps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Google Maps/Pods-Google Maps.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,138 +114,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4B4B3F321D779244005B6B70 /* WeatherClasses */ = {
+		4B499EE91D7B6688005699D4 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				4B4B3F591D7792F9005B6B70 /* ocmapper */,
-				4B4B3F331D7792E7005B6B70 /* json */,
+				4B499EDF1D7B6681005699D4 /* cellHome.h */,
+				4B499EE01D7B6681005699D4 /* cellHome.m */,
+				4B499EE11D7B6681005699D4 /* cellHome.xib */,
+				4B499EE21D7B6681005699D4 /* cellStates.h */,
+				4B499EE31D7B6681005699D4 /* cellStates.m */,
+				4B499EE41D7B6681005699D4 /* cellStates.xib */,
 			);
-			name = WeatherClasses;
+			name = Cells;
 			sourceTree = "<group>";
 		};
-		4B4B3F331D7792E7005B6B70 /* json */ = {
+		4B499EEA1D7B677E005699D4 /* ImgsStates */ = {
 			isa = PBXGroup;
 			children = (
-				4B4B3F341D7792E7005B6B70 /* NSObject+SBJson.h */,
-				4B4B3F351D7792E7005B6B70 /* NSObject+SBJson.m */,
-				4B4B3F361D7792E7005B6B70 /* SBJson.h */,
-				4B4B3F371D7792E7005B6B70 /* SBJsonParser.h */,
-				4B4B3F381D7792E7005B6B70 /* SBJsonParser.m */,
-				4B4B3F391D7792E7005B6B70 /* SBJsonStreamParser.h */,
-				4B4B3F3A1D7792E7005B6B70 /* SBJsonStreamParser.m */,
-				4B4B3F3B1D7792E7005B6B70 /* SBJsonStreamParserAccumulator.h */,
-				4B4B3F3C1D7792E7005B6B70 /* SBJsonStreamParserAccumulator.m */,
-				4B4B3F3D1D7792E7005B6B70 /* SBJsonStreamParserAdapter.h */,
-				4B4B3F3E1D7792E7005B6B70 /* SBJsonStreamParserAdapter.m */,
-				4B4B3F3F1D7792E7005B6B70 /* SBJsonStreamParserState.h */,
-				4B4B3F401D7792E7005B6B70 /* SBJsonStreamParserState.m */,
-				4B4B3F411D7792E7005B6B70 /* SBJsonStreamWriter.h */,
-				4B4B3F421D7792E7005B6B70 /* SBJsonStreamWriter.m */,
-				4B4B3F431D7792E7005B6B70 /* SBJsonStreamWriterAccumulator.h */,
-				4B4B3F441D7792E7005B6B70 /* SBJsonStreamWriterAccumulator.m */,
-				4B4B3F451D7792E7005B6B70 /* SBJsonStreamWriterState.h */,
-				4B4B3F461D7792E7005B6B70 /* SBJsonStreamWriterState.m */,
-				4B4B3F471D7792E7005B6B70 /* SBJsonTokeniser.h */,
-				4B4B3F481D7792E7005B6B70 /* SBJsonTokeniser.m */,
-				4B4B3F491D7792E7005B6B70 /* SBJsonUTF8Stream.h */,
-				4B4B3F4A1D7792E7005B6B70 /* SBJsonUTF8Stream.m */,
-				4B4B3F4B1D7792E7005B6B70 /* SBJsonWriter.h */,
-				4B4B3F4C1D7792E7005B6B70 /* SBJsonWriter.m */,
+				4B499EEB1D7B677E005699D4 /* Chiapas.jpg */,
+				4B499EEC1D7B677E005699D4 /* Jalisco.png */,
+				4B499EED1D7B677E005699D4 /* Municipalities */,
+				4B499EFE1D7B677E005699D4 /* Oaxaca.png */,
+				4B499EFF1D7B677E005699D4 /* Querétaro.jpg */,
+				4B499F001D7B677E005699D4 /* Yucatán.jpg */,
 			);
-			path = json;
+			path = ImgsStates;
 			sourceTree = "<group>";
 		};
-		4B4B3F591D7792F9005B6B70 /* ocmapper */ = {
+		4B499EED1D7B677E005699D4 /* Municipalities */ = {
 			isa = PBXGroup;
 			children = (
-				4B4B3F5A1D7792F9005B6B70 /* Categories */,
-				4B4B3F5F1D7792F9005B6B70 /* Instance Provider */,
-				4B4B3F651D7792F9005B6B70 /* Logging Provider */,
-				4B4B3F691D7792F9005B6B70 /* Mapping Provider */,
-				4B4B3F6E1D7792F9005B6B70 /* ObjectMapper.h */,
-				4B4B3F6F1D7792F9005B6B70 /* ObjectMapper.m */,
-				4B4B3F701D7792F9005B6B70 /* ObjectMappingInfo.h */,
-				4B4B3F711D7792F9005B6B70 /* ObjectMappingInfo.m */,
-				4B4B3F721D7792F9005B6B70 /* OCMapper.h */,
+				4B499EEE1D7B677E005699D4 /* 1.jpg */,
+				4B499EEF1D7B677E005699D4 /* 10.jpg */,
+				4B499EF01D7B677E005699D4 /* 2.jpg */,
+				4B499EF11D7B677E005699D4 /* 3.jpg */,
+				4B499EF21D7B677E005699D4 /* 4.jpg */,
+				4B499EF31D7B677E005699D4 /* 5.jpg */,
+				4B499EF41D7B677E005699D4 /* 6.jpg */,
+				4B499EF51D7B677E005699D4 /* 7.jpg */,
+				4B499EF61D7B677E005699D4 /* 8.jpg */,
+				4B499EF71D7B677E005699D4 /* 9.jpg */,
+				4B499EF81D7B677E005699D4 /* abe.jpg */,
+				4B499EF91D7B677E005699D4 /* gua.jpg */,
+				4B499EFA1D7B677E005699D4 /* teq.jpg */,
+				4B499EFB1D7B677E005699D4 /* tla.jpg */,
+				4B499EFC1D7B677E005699D4 /* tom.jpg */,
+				4B499EFD1D7B677E005699D4 /* Zap.jpg */,
 			);
-			path = ocmapper;
-			sourceTree = "<group>";
-		};
-		4B4B3F5A1D7792F9005B6B70 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B3F5B1D7792F9005B6B70 /* NSDictionary+ObjectMapper.h */,
-				4B4B3F5C1D7792F9005B6B70 /* NSDictionary+ObjectMapper.m */,
-				4B4B3F5D1D7792F9005B6B70 /* NSObject+ObjectMapper.h */,
-				4B4B3F5E1D7792F9005B6B70 /* NSObject+ObjectMapper.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		4B4B3F5F1D7792F9005B6B70 /* Instance Provider */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B3F601D7792F9005B6B70 /* InstanceProvider.h */,
-				4B4B3F611D7792F9005B6B70 /* ManagedObjectInstanceProvider.h */,
-				4B4B3F621D7792F9005B6B70 /* ManagedObjectInstanceProvider.m */,
-				4B4B3F631D7792F9005B6B70 /* ObjectInstanceProvider.h */,
-				4B4B3F641D7792F9005B6B70 /* ObjectInstanceProvider.m */,
-			);
-			path = "Instance Provider";
-			sourceTree = "<group>";
-		};
-		4B4B3F651D7792F9005B6B70 /* Logging Provider */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B3F661D7792F9005B6B70 /* CommonLoggingProvider.h */,
-				4B4B3F671D7792F9005B6B70 /* CommonLoggingProvider.m */,
-				4B4B3F681D7792F9005B6B70 /* LoggingProvider.h */,
-			);
-			path = "Logging Provider";
-			sourceTree = "<group>";
-		};
-		4B4B3F691D7792F9005B6B70 /* Mapping Provider */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B3F6A1D7792F9005B6B70 /* In Code Mapping */,
-				4B4B3F6D1D7792F9005B6B70 /* MappingProvider.h */,
-			);
-			path = "Mapping Provider";
-			sourceTree = "<group>";
-		};
-		4B4B3F6A1D7792F9005B6B70 /* In Code Mapping */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B3F6B1D7792F9005B6B70 /* InCodeMappingProvider.h */,
-				4B4B3F6C1D7792F9005B6B70 /* InCodeMappingProvider.m */,
-			);
-			path = "In Code Mapping";
-			sourceTree = "<group>";
-		};
-		4B4B3F8C1D779502005B6B70 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B3F8D1D779502005B6B70 /* Coord.h */,
-				4B4B3F8E1D779502005B6B70 /* Coord.m */,
-				4B4B3F8F1D779502005B6B70 /* MainObject.h */,
-				4B4B3F901D779502005B6B70 /* MainObject.m */,
-				4B4B3F911D779502005B6B70 /* Weather.h */,
-				4B4B3F921D779502005B6B70 /* Weather.m */,
-				4B4B3F931D779502005B6B70 /* WeatherDetail.h */,
-				4B4B3F941D779502005B6B70 /* WeatherDetail.m */,
-				4B4B3F951D779502005B6B70 /* WeatherObject.h */,
-				4B4B3F961D779502005B6B70 /* WeatherObject.m */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		4B4B3FA51D77B4FD005B6B70 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				4B4B3FA81D77CF5D005B6B70 /* 02d.png */,
-				4B4B3FA61D77B4FD005B6B70 /* 01d.png */,
-			);
-			path = img;
+			path = Municipalities;
 			sourceTree = "<group>";
 		};
 		4B4FE61D1D5D672A00E108D4 = {
@@ -301,9 +184,8 @@
 		4B4FE6281D5D672A00E108D4 /* Google Maps */ = {
 			isa = PBXGroup;
 			children = (
-				4B4B3FA51D77B4FD005B6B70 /* img */,
-				4B4B3F8C1D779502005B6B70 /* Models */,
-				4B4B3F321D779244005B6B70 /* WeatherClasses */,
+				4B499EEA1D7B677E005699D4 /* ImgsStates */,
+				4B499EE91D7B6688005699D4 /* Cells */,
 				4B4FE6441D5D676D00E108D4 /* Main */,
 				4B4FE6431D5D675800E108D4 /* Controllers */,
 				4B4FE6321D5D672A00E108D4 /* Main.storyboard */,
@@ -329,16 +211,16 @@
 		4B4FE6431D5D675800E108D4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				4B4B3F9F1D77A365005B6B70 /* Declarations.h */,
-				4B4B3FA01D77A365005B6B70 /* Declarations.m */,
-				4B4B3FA11D77A365005B6B70 /* Parser.h */,
-				4B4B3FA21D77A365005B6B70 /* Parser.m */,
-				4B4B3F9D1D77962E005B6B70 /* OCMapperConfig.m */,
-				4B4B3F9C1D779619005B6B70 /* OCMapperConfig.h */,
+				4B499ED61D7B64FD005699D4 /* Home.h */,
+				4B499ED71D7B64FD005699D4 /* Home.m */,
+				4B499ED81D7B64FD005699D4 /* FoodDetails.h */,
+				4B499ED91D7B64FD005699D4 /* FoodDetails.m */,
+				4B499EDA1D7B64FD005699D4 /* States.h */,
+				4B499EDB1D7B64FD005699D4 /* States.m */,
 				4B4FE62F1D5D672A00E108D4 /* Start.h */,
 				4B4FE6301D5D672A00E108D4 /* Start.m */,
-				4B7FF1851D750FCA00CFDE8B /* Details.h */,
-				4B7FF1861D750FCA00CFDE8B /* Details.m */,
+				4B499F161D7B77DF005699D4 /* Declaration.h */,
+				4B499F171D7B77DF005699D4 /* Declaration.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -430,12 +312,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4FE63C1D5D672A00E108D4 /* LaunchScreen.storyboard in Resources */,
+				4B499F021D7B677E005699D4 /* Jalisco.png in Resources */,
+				4B499EE81D7B6681005699D4 /* cellStates.xib in Resources */,
+				4B499F041D7B677E005699D4 /* 10.jpg in Resources */,
+				4B499F061D7B677E005699D4 /* 3.jpg in Resources */,
+				4B499F151D7B677E005699D4 /* Yucatán.jpg in Resources */,
 				4B4FE6391D5D672A00E108D4 /* Assets.xcassets in Resources */,
+				4B499F111D7B677E005699D4 /* tom.jpg in Resources */,
+				4B499F0E1D7B677E005699D4 /* gua.jpg in Resources */,
+				4B499F0D1D7B677E005699D4 /* abe.jpg in Resources */,
+				4B499F081D7B677E005699D4 /* 5.jpg in Resources */,
+				4B499F121D7B677E005699D4 /* Zap.jpg in Resources */,
+				4B499F011D7B677E005699D4 /* Chiapas.jpg in Resources */,
+				4B499F0F1D7B677E005699D4 /* teq.jpg in Resources */,
+				4B499F0C1D7B677E005699D4 /* 9.jpg in Resources */,
+				4B499F131D7B677E005699D4 /* Oaxaca.png in Resources */,
+				4B499F051D7B677E005699D4 /* 2.jpg in Resources */,
+				4B499F071D7B677E005699D4 /* 4.jpg in Resources */,
+				4B499F0A1D7B677E005699D4 /* 7.jpg in Resources */,
+				4B499F091D7B677E005699D4 /* 6.jpg in Resources */,
+				4B499F101D7B677E005699D4 /* tla.jpg in Resources */,
+				4B499F0B1D7B677E005699D4 /* 8.jpg in Resources */,
+				4B499EE61D7B6681005699D4 /* cellHome.xib in Resources */,
 				4B89B4171D5EBB9800302415 /* GoogleService-Info.plist in Resources */,
-				4B4B3FA71D77B4FD005B6B70 /* 01d.png in Resources */,
+				4B499F141D7B677E005699D4 /* Querétaro.jpg in Resources */,
 				4B4FE6461D5D73F600E108D4 /* Podfile in Resources */,
-				4B4B3FA91D77CF5D005B6B70 /* 02d.png in Resources */,
 				4B4FE6341D5D672A00E108D4 /* Main.storyboard in Resources */,
+				4B499F031D7B677E005699D4 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,39 +397,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4B3F781D7792F9005B6B70 /* InCodeMappingProvider.m in Sources */,
-				4B4B3F521D7792E7005B6B70 /* SBJsonStreamParserState.m in Sources */,
-				4B4B3FA31D77A365005B6B70 /* Declarations.m in Sources */,
-				4B4B3F4E1D7792E7005B6B70 /* SBJsonParser.m in Sources */,
-				4B4B3F9B1D779502005B6B70 /* WeatherObject.m in Sources */,
-				4B4B3F511D7792E7005B6B70 /* SBJsonStreamParserAdapter.m in Sources */,
-				4B4B3F741D7792F9005B6B70 /* NSObject+ObjectMapper.m in Sources */,
-				4B4B3F791D7792F9005B6B70 /* ObjectMapper.m in Sources */,
-				4B4B3F761D7792F9005B6B70 /* ObjectInstanceProvider.m in Sources */,
-				4B4B3F981D779502005B6B70 /* MainObject.m in Sources */,
+				4B499F181D7B77DF005699D4 /* Declaration.m in Sources */,
+				4B499EDC1D7B64FD005699D4 /* Home.m in Sources */,
 				4B4FE6311D5D672A00E108D4 /* Start.m in Sources */,
-				4B4B3F501D7792E7005B6B70 /* SBJsonStreamParserAccumulator.m in Sources */,
-				4B4B3F9A1D779502005B6B70 /* WeatherDetail.m in Sources */,
+				4B499EDE1D7B64FD005699D4 /* States.m in Sources */,
 				4B4FE6371D5D672A00E108D4 /* Google_Maps.xcdatamodeld in Sources */,
-				4B7FF1871D750FCA00CFDE8B /* Details.m in Sources */,
-				4B4B3F551D7792E7005B6B70 /* SBJsonStreamWriterState.m in Sources */,
-				4B4B3F531D7792E7005B6B70 /* SBJsonStreamWriter.m in Sources */,
-				4B4B3F541D7792E7005B6B70 /* SBJsonStreamWriterAccumulator.m in Sources */,
 				4B4FE62E1D5D672A00E108D4 /* AppDelegate.m in Sources */,
-				4B4B3F991D779502005B6B70 /* Weather.m in Sources */,
-				4B4B3F561D7792E7005B6B70 /* SBJsonTokeniser.m in Sources */,
-				4B4B3F4D1D7792E7005B6B70 /* NSObject+SBJson.m in Sources */,
-				4B4B3FA41D77A365005B6B70 /* Parser.m in Sources */,
-				4B4B3F771D7792F9005B6B70 /* CommonLoggingProvider.m in Sources */,
-				4B4B3F7A1D7792F9005B6B70 /* ObjectMappingInfo.m in Sources */,
-				4B4B3F751D7792F9005B6B70 /* ManagedObjectInstanceProvider.m in Sources */,
+				4B499EE71D7B6681005699D4 /* cellStates.m in Sources */,
+				4B499EDD1D7B64FD005699D4 /* FoodDetails.m in Sources */,
+				4B499EE51D7B6681005699D4 /* cellHome.m in Sources */,
 				4B4FE62B1D5D672A00E108D4 /* main.m in Sources */,
-				4B4B3F971D779502005B6B70 /* Coord.m in Sources */,
-				4B4B3F4F1D7792E7005B6B70 /* SBJsonStreamParser.m in Sources */,
-				4B4B3F571D7792E7005B6B70 /* SBJsonUTF8Stream.m in Sources */,
-				4B4B3F731D7792F9005B6B70 /* NSDictionary+ObjectMapper.m in Sources */,
-				4B4B3F581D7792E7005B6B70 /* SBJsonWriter.m in Sources */,
-				4B4B3F9E1D77962E005B6B70 /* OCMapperConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
